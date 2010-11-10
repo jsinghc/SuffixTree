@@ -1,0 +1,7 @@
+A Java implementation of Ukkonen's Algorithm for on-line construction of suffix trees.
+
+Create the suffix tree for a text using the constructor:
+SuffixTree (String text);
+
+Search for the occurence of a string in the text using the method search. The search method returns true or false.
+boolean search (String searchText);
